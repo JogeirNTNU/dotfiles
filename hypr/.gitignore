@@ -1,0 +1,27 @@
+# Lua compiled files
+*.luac
+luac.out
+
+# LuaRocks
+*.rock
+*.rockspec
+luarocks/
+
+# LSP / editor
+.luarc.json
+.luacheckrc
+
+# Hyprland runtime / cache
+hyprland.log
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor directories
+.vscode/
+.idea/
+*.swp
+*.swo
+*~

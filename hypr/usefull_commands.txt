@@ -1,0 +1,19 @@
+Blur background (surface layer)
+  layerrule = blur,NAMESPACE
+  # or
+  layerrule = blur,address:0x<ADDRESS>
+
+To remove a layer rule (useful in dynamic situations) use:
+layerrule = unset,<whatever you used before>
+
+animated wallpaper/transition: https://codeberg.org/LGFae/awww
+
+https://wiki.hypr.land/Useful-Utilities/Status-Bars/
+
+consider changing from dunst to swaync (notification daemon)
+
+have installed, but needs config: hyprsunset (blue light filter)
+
+https://wiki.hypr.land/Configuring/Layouts/Scrolling-Layout/
+
+/etc/udev/rules.d/50-usb-power.rules (if problem with microphone disconnecting, this does not work)
