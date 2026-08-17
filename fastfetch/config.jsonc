@@ -220,7 +220,7 @@
     {
       "type": "cpu",
       "keyIcon": "",
-      "temp": false,
+      "temp": true,
       "showPeCoreCount": false,
       "tempSensor": ""
     },
