@@ -53,6 +53,9 @@ hl.config({
 	render = {
 		cm_auto_hdr = true,
 	},
+	quirks = {
+		prefer_hdr = true,
+	},
 })
 
 -- ---- CURSOR ----
