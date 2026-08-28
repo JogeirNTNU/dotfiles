@@ -10,7 +10,7 @@ hl.monitor({
 	scale = 1,
 })
 
--- Main screen 2560x1440 240Hz with HDR (DP-3)
+-- Main screen 2560x1440 240Hz with HDR (DP-1)
 hl.monitor({
 	output = "DP-3",
 	mode = "2560x1440@240",
