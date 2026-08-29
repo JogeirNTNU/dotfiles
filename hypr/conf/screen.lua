@@ -6,7 +6,7 @@
 hl.monitor({
 	output = "HDMI-A-1",
 	mode = "1920x1080@60",
-	position = "0x730",
+	position = "auto-center-left",
 	scale = 1,
 })
 
@@ -14,7 +14,7 @@ hl.monitor({
 hl.monitor({
 	output = "DP-3",
 	mode = "2560x1440@240",
-	position = "1920x560",
+	position = "0x0",
 	scale = 1,
 	bitdepth = 10,
 	cm = "srgb",
@@ -24,7 +24,7 @@ hl.monitor({
 hl.monitor({
 	output = "DP-2",
 	mode = "2560x1440@165",
-	position = "4480x0",
+	position = "auto-center-right",
 	scale = 1,
 	transform = 3, -- 3 = 270° (WL_OUTPUT_TRANSFORM_270)
 })
@@ -35,15 +35,3 @@ hl.config({
 		vrr = 2,
 	},
 })
-
---Steam popups position fix
--- hl.window_rule({
--- 	name = "steam-notification-toast",
--- 	match = { class = "steam", title = "notificationtoasts_.*_desktop" },
--- 	float = true,
--- 	pin = true,
--- 	stayfocused = true,
--- 	move = "100%-420 100%-250",
--- 	size = "380 100",
--- 	no_border = true,
--- })
